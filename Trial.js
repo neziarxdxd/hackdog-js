@@ -17,6 +17,9 @@ To_do = [
 {
 	date_todo:"12-12-12", name:"Matutulog", isDone:true
 },
+{
+	date_todo:"12-13-19", name:"Maglalaro", isDone:false
+},
 ]
 To_do.push({
 	date_todo:"1-11-11", name:"Kain", isDone:false
