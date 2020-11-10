@@ -6,7 +6,7 @@ To_do = [
 	date_todo:"02-08-10", name:"Natutulog", isDone:true
 },
 {
-	date_todo:"12-29-15", name:"Gigising", isDone:false
+	date_todo:"12-29-15", name:"Gigising", isDone:true
 },
 {
 	date_todo:"05-18-04", name:"Aalis", isDone:false
