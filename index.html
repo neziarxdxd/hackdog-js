@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="Trial.js"></script>
-	<title>Binago ko nang walang paaalam </title>
-	Magpaalam muna akong baguhin
-	New way
+	<title> HackDog </title>
 </head>
 <body>
+
+	<script type="text/javascript"> 
+
+		todos = [
+		{
+			date_todo:"11/10/2020", "name":"Module 1", "is_Done":true
+		},
+		{
+			date_todo:"11/11/2020", "name":"Birthday Bash", "is_Done":true
+		},
+		{
+			date_todo:"11/15/2020", "name":"Grocery", "is_Done":false
+		},
+		{
+			date_todo:"11/18/2020", "name":"Code", "is_Done":true
+		},
+		{
+			date_todo:"11/24/2020", "name":"Linis", "is_Done":false
+		},
+		{
+			date_todo:"11/25/2020", "name":"Outing", "is_Done":true
+		}
+		];
+		todos.push(
+		{
+			date_todo:"11/30/2020", name:"Basketball", is_Done:true
+		}
+		)
+		
+		todos[2][name] = "Ligoss";
+
+		todos.map((todos)=>(
+		console.log(todos)
+		));
+		/*for (var i = 0; i < Things.length; i++) {
+			Things[i]
+		}*/
+
+	</script>
 
 </body>
 </html>
