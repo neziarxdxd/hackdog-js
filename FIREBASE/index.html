@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+<div>
+   Enter name <input type="text" id="enter_name"> 
+</div>
+<div>
+    Enter address <input type="text" id="enter_address"> 
+ </div>
+ <div>
+    Enter section <input type="text" id="enter_section"> 
+ </div>
+ <div>
+     <input type="button" id="submit_button" value="add"  onclick="submitClick()">
+     <input type="button" id="read_data" value="read"  onclick="readDataClick()">
+ </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDCUW4qpjFqe_VVRBMkcKc5jwqmjvMDoac",
+    authDomain: "cca-app-3d33c.firebaseapp.com",
+    databaseURL: "https://cca-app-3d33c.firebaseio.com",
+    projectId: "cca-app-3d33c",
+    storageBucket: "cca-app-3d33c.appspot.com",
+    messagingSenderId: "693885108610",
+    appId: "1:693885108610:web:db79b62bc9c2222f46cf9b",
+    measurementId: "G-9HRHBBLDQ6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
