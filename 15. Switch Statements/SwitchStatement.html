@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Switch Statement JavaScript</title>
+    <script>
+    /* Switch Statement are used to check a value and make a decision based on the result of the value matching.
+    Syntax:
+    switch(variable){
+    case value:
+    //statement
+    break;
+    
+    case value;
+    //statement
+    break;
+    
+    default;
+    //statement
+    break;
+    }
+    */
+        
+    var dayOfWeek = prompt("Enter the day of the week");
+    var result;
+    dayOfWeek = dayOfWeek.toLowerCase();
+    switch(dayOfWeek){
+        case 'monday':
+            alert("Welcome Monday");
+            result="Today is Monday"
+            break;
+        case 'tuesday':
+            alert("Welcome Tuesday");
+            result="Today is Tuesday"
+            break;
+        case 'wednesday':
+            alert("Welcome Wednesday");
+            result="Today is Wednesday"
+            break;
+        case 'thursday':
+            alert("Welcome Thurday");
+            result="Today is Thursday"
+            break; 
+        case 'friday':
+            alert("Welcome Friday");
+            result="Today is Friday"
+            break; 
+        case 'saturday':
+            alert("Welcome Saturday");
+            result="Today is Saturday"
+            break;
+        case 'sunday':
+            alert("Welcome Sunday");
+            result="Today is Sunday"
+            break;
+        default:
+            alert("Try again");
+            result="I cannot find the value"
+            break;
+    }
+    </script>
+</head>
+
+<body>
+    <h1>Switch Statement</h1>
+    <script>
+        document.write("Welcome!! " + result)
+    </script>
+</body>
+</html>

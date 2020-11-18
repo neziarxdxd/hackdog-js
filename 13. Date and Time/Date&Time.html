@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Date and Time JavaScript</title>
+    <script>
+        var today = new Date();
+        console.log(today.toDateString());
+        console.log(today.getFullYear());
+        console.log(today.getDate());
+        console.log(today.getMonth());
+        console.log(today.toLocaleDateString());
+    </script>
+</head>
+
+<body>
+    <h1>Date and Time</h1>
+    <script>
+        document.write(today.toDateString() + "<br>");
+        document.write("Year: " + today.getFullYear() + "<br>");
+        document.write("Date: " + today.getDate() + "<br>");
+        document.write("Month: " + today.getMonth() + "<br>");
+        document.write("Time: " + today.toLocaleTimeString() + "<br>");
+    </script>
+</body>
+</html>

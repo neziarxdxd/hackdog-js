@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>If Statements JavaScript</title>
+    <script>
+    /* If statements are used to check a condition and make a decision based on the result of the condition.
+    Syntax:
+    if(condition){
+    //Statements
+    
+    }else if(condition1 || condition2){
+    //Statements
+    
+    }else{
+    //Statements
+    }
+    */
+    var mark = parseInt(prompt("Enter your Age:"));
+    var stage;
+    if(mark > 60 || mark == 60){
+        alert("You are now Senior Citizen.")
+        stage="Senior Citizen";
+    }else if(mark > 18 || mark == 18){
+        alert("You are now adult.")
+        stage="Adult";
+    }else{
+        alert("You are minor.")
+        stage="minor";
+    }    
+    </script>
+</head>
+
+<body>
+    <h1>If Statements</h1>
+    <script>
+        document.write("Your age is " + mark + " and you are " + stage)
+    </script>
+</body>
+</html>
