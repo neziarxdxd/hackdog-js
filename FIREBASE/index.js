@@ -1,7 +1,7 @@
 var nameText = document.getElementById("enter_name");
 var addressText = document.getElementById("enter_address");
 var sectionText = document.getElementById("enter_section");
-var submitButton = document.getElementById("submit_button")
+
 
 var firebaseRef= firebase.database().ref();
 function submitClick(){  
