@@ -7,12 +7,11 @@ var firebaseRef= firebase.database().ref();
 function submitClick(){  
     
 // set is used to update
- firebaseRef.child("ID").push(     {
+ firebaseRef.child("ID").push({
          name: nameText.value,
          address: addressText.value,
-         section: sectionText.value,         
-     }
- )
+         section: sectionText.value
+    });
 }
 
 
