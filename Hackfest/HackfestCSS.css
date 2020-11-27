@@ -1,0 +1,99 @@
+body{
+    margin: auto auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+.Navi{
+    background-color: #8aaae5;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    min-width: 650px;
+}
+header ul{
+    float: right;
+    margin-right: 40px;
+}
+header ul li{
+    display: inline-block;
+    padding:0px 20px;
+    text-transform: uppercase;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #213158;
+}
+.flex-main{
+    background-color: #8aaae5;
+    padding: 100px 0px;
+    display: flex;
+}
+.flex-div{
+    font-size: 20px;
+    padding: 0px 150px;
+    flex: 3 3 5rem;
+}
+.box{
+    margin-left: 15%;
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 400px;
+    width: 300px;
+}
+}
+.logo{
+    text-align: center;
+}
+.services{
+    display: inline-block;
+    padding: 0px 50px;
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+aside{
+    display: block;
+    padding: 100px 0px 0px 100px;
+    margin: 0 auto;
+    float: left;
+}
+
+.float-right{
+    float: right;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.large-font{
+    font-size: 40px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+
+}
